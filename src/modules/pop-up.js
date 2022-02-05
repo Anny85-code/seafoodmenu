@@ -92,9 +92,10 @@ const popUp = async ([meal]) => {
   const toggleSubmit = () => {
     const isDisabled = ![].some.call(
       document.querySelectorAll('input[type=text]'),
-      (input) => input.value.length
+      (input) => input.value.length,
     );
     if (isDisabled) {
+      btn.addAttribute('disabled');
     } else {
       btn.removeAttribute('disabled');
     }
