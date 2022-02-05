@@ -176,7 +176,8 @@ nav img {
   margin: 60px auto 0 auto;
   box-shadow: 5px 5px 115px -14px black;
   border-radius: 30px;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       rgba(22, 12, 46, 0.95),
       rgba(73, 66, 92, 0.95)
     ),
@@ -244,17 +245,18 @@ nav img {
   z-index: 111 !important;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  -webkit-mask-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(0, rgba(0, 0, 0, 1)),
-    color-stop(0.35, rgba(0, 0, 0, 1)),
-    color-stop(0.5, rgba(0, 0, 0, 1)),
-    color-stop(0.65, rgba(0, 0, 0, 1)),
-    color-stop(0.85, rgba(0, 0, 0, 0.6)),
-    color-stop(1, rgba(0, 0, 0, 0))
-  );
+  -webkit-mask-image:
+    -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0, rgba(0, 0, 0, 1)),
+      color-stop(0.35, rgba(0, 0, 0, 1)),
+      color-stop(0.5, rgba(0, 0, 0, 1)),
+      color-stop(0.65, rgba(0, 0, 0, 1)),
+      color-stop(0.85, rgba(0, 0, 0, 0.6)),
+      color-stop(1, rgba(0, 0, 0, 0))
+    );
   position: relative;
 }
 
@@ -326,7 +328,6 @@ textarea {
   padding: 5px;
   box-shadow: 5px 5px rgb(26, 25, 25);
   margin-bottom: 20px;
-  font-size: 20px;
   border: 2px #000 solid;
   width: 250px;
   background-color: #44318d;
@@ -416,17 +417,18 @@ footer {
     z-index: 111 !important;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    -webkit-mask-image: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      color-stop(0, rgba(0, 0, 0, 1)),
-      color-stop(0.35, rgba(0, 0, 0, 1)),
-      color-stop(0.5, rgba(0, 0, 0, 1)),
-      color-stop(0.65, rgba(0, 0, 0, 1)),
-      color-stop(0.85, rgba(0, 0, 0, 0.6)),
-      color-stop(1, rgba(0, 0, 0, 0))
-    );
+    -webkit-mask-image:
+      -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, rgba(0, 0, 0, 1)),
+        color-stop(0.35, rgba(0, 0, 0, 1)),
+        color-stop(0.5, rgba(0, 0, 0, 1)),
+        color-stop(0.65, rgba(0, 0, 0, 1)),
+        color-stop(0.85, rgba(0, 0, 0, 0.6)),
+        color-stop(1, rgba(0, 0, 0, 0))
+      );
     position: relative;
   }
 
@@ -439,7 +441,8 @@ footer {
     margin: 60px auto 0 auto;
     box-shadow: 5px 5px 115px -14px black;
     border-radius: 30px;
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         rgba(22, 12, 46, 0.95),
         rgba(73, 66, 92, 0.95)
       ),
