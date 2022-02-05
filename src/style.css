@@ -105,7 +105,7 @@ nav img {
   position: relative;
   margin-bottom: 0;
   padding: 50px;
-  width: 370px;
+  width: 320px;
 }
 
 .card:hover {
@@ -175,7 +175,7 @@ nav img {
   background-color: #1e1b26;
   margin: 60px auto 0 auto;
   box-shadow: 5px 5px 115px -14px black;
-  border-radius: 4px;
+  border-radius: 30px;
   background-image:
     linear-gradient(
       rgba(22, 12, 46, 0.95),
@@ -216,21 +216,23 @@ nav img {
   align-content: center;
   justify-content: center;
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Neonderthaw', sans-serif;
   font-weight: bolder;
+  font-size: 35px;
 }
 
 .meal-details1 {
   color: #a4b3b6;
-  font-size: 22px;
-  font-family: 'Robot', sans-serif;
+  font-size: 28px;
+  font-family: 'Neonderthaw', sans-serif;
   font-weight: bold;
 }
 
 .meal-details {
   margin-right: 50px;
   color: #e98074;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Nanum Pen Script', sans-serif;
+  font-size: 22px;
 }
 
 .meal-image {
@@ -241,8 +243,8 @@ nav img {
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 111 !important;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   -webkit-mask-image:
     -webkit-gradient(
       linear,
@@ -285,8 +287,8 @@ nav img {
 
 .comment-counter {
   color: burlywood;
-  font-size: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-size: 27px;
+  font-family: 'Nanum Pen Script', sans-serif;
   font-weight: 900;
 }
 
@@ -326,17 +328,19 @@ textarea {
   padding: 5px;
   box-shadow: 5px 5px rgb(26, 25, 25);
   margin-bottom: 20px;
-  font-size: 20px;
   border: 2px #000 solid;
   width: 250px;
   background-color: #44318d;
   color: #fff;
+  font-family: 'Nanum Pen Script', sans-serif;
+  font-size: 30px;
 }
 
 .white {
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Nanum Pen Script', sans-serif;
   font-weight: 800;
+  font-size: 25px;
 }
 
 footer::after {
@@ -352,12 +356,17 @@ footer {
   bottom: 0;
   width: 100%;
   height: 50px;
-  font-size: 22px;
+  font-size: 30px;
   color: rgb(2, 28, 43);
   background-color: #aaabb8;
   font-weight: bold;
   padding: 10px 0 10px 0;
   text-align: center;
+  font-family: 'Nanum Pen Script', sans-serif;
+}
+
+.footer-name:hover {
+  color: goldenrod;
 }
 
 @media only screen and (min-width: 678px) {
@@ -368,6 +377,10 @@ footer {
     gap: 100px 200px;
     margin: 100px 0 100px 0;
     text-align: center;
+  }
+
+  .card {
+    width: 380px;
   }
 
   nav img {
@@ -402,8 +415,8 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 111 !important;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     -webkit-mask-image:
       -webkit-gradient(
         linear,
@@ -427,7 +440,7 @@ footer {
     background-color: #1e1b26;
     margin: 60px auto 0 auto;
     box-shadow: 5px 5px 115px -14px black;
-    border-radius: 4px;
+    border-radius: 30px;
     background-image:
       linear-gradient(
         rgba(22, 12, 46, 0.95),

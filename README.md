@@ -1,43 +1,49 @@
 # Capstone 2 Javascript
+
 ## Fish recipes
 
-## Live preview [here](https://vudej.github.io/Capstone-2-JavaScript/dist/). 
+## Live preview [here](https://vudej.github.io/Capstone-2-JavaScript/dist/).
 
-##  Video
+## Video
 
 Quick review of page amd code.
 [video link](https://drive.google.com/file/d/1rddGpKvrW6znvf1dJ-pU_T2VqdC4jjld/view?usp=sharing)
 
-
 ## Screenshots
+
 ![Example screenshot](img/screenshot.png)
 
 ## Contents
-* [Homepage](#homepage)
+
+- [Homepage](#homepage)
 
 ## General info
+
 This project is Microverse group project Capstone, module 2.
 Retrieval data from API and used Involvement API for likes and comments.
 Test for data retrieved from API and for comments.
 
 ## Technologies
-Project is created with:
-* HTML
-* CSS
-* Javascript
-* webpack
-* jest
 
-	
+Project is created with:
+
+- HTML
+- CSS
+- Javascript
+- webpack
+- jest
+
 ## Setup
+
 To run this project, install it locally using:
+
 - cd Desktop
 - git clone https://github.com/VuDej/Capstone-2-JavaScript.git
 - cd Capstone-2-JavaScript
 - npm install
-- npm start 
+- npm start
 
-## Author 1
+## Author
 
 👤 **Dejan Vujovic**
 
@@ -45,13 +51,11 @@ To run this project, install it locally using:
 - Twitter: [@DejanVuj](https://twitter.com/DejanVuj)
 - LinkedIn : [@Dejan-Vujovic](https://www.linkedin.com/in/dejan-vujovic-5a0672225/)
 
-
 👤 **Aniekan udo**
 
 - GitHub: [@Anny85-code](https://github.com/Anny85-code)
 - Twitter: [@Annyudo8](https://twitter.com/Anny_udo8)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/aniekan-udo-665b65213/)
-
 
 ## 🤝 Contributing
 
@@ -72,4 +76,5 @@ Give a ⭐️ if you like this project!
 This project is [MIT](LICENSE) licensed.
 
 ## Contact
+
 Created by [@VuDej](https://github.com/VuDej) and [@Anny85-code](https://github.com/Anny85-code).
