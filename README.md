@@ -2,7 +2,7 @@
 
 ## Fish recipes
 
-## Live preview [here](https://vudej.github.io/Capstone-2-JavaScript/dist/).
+## Live preview [here](https://anny85-code.github.io/seafoodmenu/dist/).
 
 ## Video
 
@@ -38,24 +38,24 @@ Project is created with:
 To run this project, install it locally using:
 
 - cd Desktop
-- git clone https://github.com/VuDej/Capstone-2-JavaScript.git
+- git clone https://github.com/Anny85-code/seafoodmenu.git
 - cd Capstone-2-JavaScript
 - npm install
 - npm start
 
 ## Author
 
-👤 **Dejan Vujovic**
-
-- Github : [@VuDej](https://github.com/VuDej)
-- Twitter: [@DejanVuj](https://twitter.com/DejanVuj)
-- LinkedIn : [@Dejan-Vujovic](https://www.linkedin.com/in/dejan-vujovic-5a0672225/)
-
 👤 **Aniekan udo**
 
 - GitHub: [@Anny85-code](https://github.com/Anny85-code)
 - Twitter: [@Annyudo8](https://twitter.com/Anny_udo8)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/aniekan-udo-665b65213/)
+
+👤 **Dejan Vujovic**
+
+- Github : [@VuDej](https://github.com/VuDej)
+- Twitter: [@DejanVuj](https://twitter.com/DejanVuj)
+- LinkedIn : [@Dejan-Vujovic](https://www.linkedin.com/in/dejan-vujovic-5a0672225/)
 
 ## 🤝 Contributing
 
@@ -77,4 +77,4 @@ This project is [MIT](LICENSE) licensed.
 
 ## Contact
 
-Created by [@VuDej](https://github.com/VuDej) and [@Anny85-code](https://github.com/Anny85-code).
+Created by [@Anny85-code](https://github.com/Anny85-code) and [@VuDej](https://github.com/VuDej).
