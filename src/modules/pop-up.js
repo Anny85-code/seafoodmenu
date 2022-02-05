@@ -57,13 +57,15 @@ const popUp = async ([meal]) => {
   const input = document.createElement('input');
   input.placeholder = 'Your name';
   input.id = 'username';
+  input.type = 'text';
   const textArea = document.createElement('textarea');
   textArea.placeholder = 'Your insight';
   textArea.id = 'usercomment';
   form.appendChild(input);
   form.appendChild(textArea);
   const btn = document.createElement('button');
-  btn.type = 'button';
+  btn.type = 'submit';
+  btn.disabled = 'disabled';
   btn.classList.add('btn');
   btn.innerText = 'Comments';
   form.appendChild(btn);
@@ -87,8 +89,22 @@ const popUp = async ([meal]) => {
   let counter = commentCounter(commentList);
   commentNumber.innerHTML = `Comments (${counter})`;
 
+  const toggleSubmit = () => {
+    const isDisabled = ![].some.call(
+      document.querySelectorAll('input[type=text]'),
+      (input) => input.value.length
+    );
+    if (isDisabled) {
+    } else {
+      btn.removeAttribute('disabled');
+    }
+  };
+
+  document.querySelector('form').addEventListener('input', toggleSubmit, false);
+
   btn.addEventListener('click', async (e) => {
     e.preventDefault();
+
     const userName = input.value;
     const userComment = textArea.value;
     counter += 1;
@@ -100,6 +116,7 @@ const popUp = async ([meal]) => {
       comment: userComment,
       username: userName,
     });
+    btn.setAttribute('disabled', 'disabled');
     form.reset();
     await setCommentsToAPI(meal.idMeal, userName, userComment);
   });
@@ -108,5 +125,4 @@ const popUp = async ([meal]) => {
     addComment(element);
   });
 };
-
 export default popUp;
