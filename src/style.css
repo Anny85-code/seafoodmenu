@@ -408,15 +408,15 @@ footer {
 
 @media only screen and (max-width: 678px) {
   .meal-image {
-    width: 80%;
+    width: 100%;
     margin-top: 60px;
     height: 380px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 111 !important;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
     -webkit-mask-image:
       -webkit-gradient(
         linear,
