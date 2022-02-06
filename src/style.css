@@ -236,7 +236,7 @@ nav img {
 }
 
 .meal-image {
-  width: 80%;
+  width: 90%;
   margin-top: 60px;
   height: 380px;
   background-position: center;
@@ -468,11 +468,14 @@ footer {
   .pop-up {
     text-align: center;
     width: fit-content;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
   }
 
   .close-button {
+    margin-left: 260px;
     position: absolute;
-    margin-right: 10px;
     font-size: 30px;
     font-weight: bold;
     border: none;
@@ -497,5 +500,16 @@ footer {
     width: 250px;
     border-radius: 5px;
     border: 1px #000 solid;
+  }
+
+  ul {
+    padding: 10px;
+  }
+
+  .meal-details {
+    margin-right: 5px;
+    color: #e98074;
+    font-family: 'Nanum Pen Script', sans-serif;
+    font-size: 22px;
   }
 }
