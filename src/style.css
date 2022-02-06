@@ -468,11 +468,14 @@ footer {
   .pop-up {
     text-align: center;
     width: fit-content;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
   }
 
   .close-button {
+    margin-left: 260px;
     position: absolute;
-    margin-right: 10px;
     font-size: 30px;
     font-weight: bold;
     border: none;
