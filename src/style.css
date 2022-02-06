@@ -433,9 +433,8 @@ footer {
   }
 
   .meal-image:hover {
-  transform: scale(0.9);
+    transform: scale(0.9);
   }
-
 
   .pop-up-container {
     display: none;
