@@ -507,10 +507,9 @@ footer {
   }
 
   .meal-details {
-  margin-right: 5px;
-  color: #e98074;
-  font-family: 'Nanum Pen Script', sans-serif;
-  font-size: 22px;
-}
-
+    margin-right: 5px;
+    color: #e98074;
+    font-family: 'Nanum Pen Script', sans-serif;
+    font-size: 22px;
+  }
 }
