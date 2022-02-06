@@ -432,6 +432,10 @@ footer {
     position: relative;
   }
 
+  .meal-image:hover {
+    transform: scale(0.9);
+  }
+
   .pop-up-container {
     display: none;
     width: 90vw;
