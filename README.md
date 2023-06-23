@@ -2,7 +2,7 @@
 
 ## Fish recipes
 
-## Live preview [here](https://anny85-code.github.io/seafoodmenu/dist/).
+## Live preview [here](https://649548422bafcc4a260e6388--merry-starlight-c676b9.netlify.app/).
 
 ## Video
 
